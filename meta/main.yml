@@ -1,0 +1,36 @@
+galaxy_info:
+  author: Nho Luong
+  description: Resilio Sync, aka BitTorrent Sync.
+  company: Nho Luong
+  min_ansible_version: 2.1
+
+  github_branch: master
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 24
+  - name: Ubuntu
+    versions:
+  #  - all
+  #  - lucid
+  #  - maverick
+  #  - natty
+  #  - oneiric
+  #  - precise
+  #  - quantal
+  #  - raring
+  #  - saucy
+  #  - trusty
+  #  - utopic
+  #  - vivid
+  #  - wily
+    - xenial
+
+  galaxy_tags:
+      - peer-to-peer
+      - bit-torrent
+      - torrent
+
+dependencies:
+    - { role: kurron.base }
